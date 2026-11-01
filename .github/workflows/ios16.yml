@@ -26,7 +26,7 @@ jobs:
           sudo xcode-select -s "$CANDIDATE"
           xcodebuild -version
 
-      - name: 编译（收集全部错误）
+      - name: 编译
         run: |
           set -o pipefail
           xcodebuild build \
@@ -39,15 +39,13 @@ jobs:
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
             CODE_SIGN_ENTITLEMENTS="" \
-            2>&1 | tee /tmp/build.log | rg -i "error:|warning: .*only available|BUILD (FAILED|SUCCEEDED)" | head -400 || true
-          echo "---- 错误统计 ----"
-          rg -c "error:" /tmp/build.log || echo 0
-          exit_code=${PIPESTATUS[0]}
-          echo "xcodebuild exit=$exit_code"
-          if rg -q "BUILD SUCCEEDED" /tmp/build.log; then echo "OK=1" >> $GITHUB_ENV; fi
+            2>&1 | tee /tmp/build.log
+
+      - name: 错误摘要
+        if: failure()
+        run: rg -n "error:" /tmp/build.log | head -200 || true
 
       - name: 打包 IPA
-        if: env.OK == '1'
         run: |
           set -euo pipefail
           APP=$(find .build/Build/Products/Release-iphoneos -maxdepth 1 -name "*.app" | head -1)
@@ -61,7 +59,6 @@ jobs:
           /usr/libexec/PlistBuddy -c "Print :MinimumOSVersion" /tmp/ipa/Payload/*.app/Info.plist
 
       - name: 上传 IPA
-        if: env.OK == '1'
         uses: actions/upload-artifact@v4
         with:
           name: ipa-ios16
