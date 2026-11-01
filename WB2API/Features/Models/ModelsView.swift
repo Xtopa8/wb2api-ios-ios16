@@ -57,7 +57,7 @@ struct ModelsView: View {
                             description: Text("面板还没有返回模型目录")
                         )
                     } else {
-                        WBEmptyState.search
+                        WBEmptyState.search(text: searchText)
                     }
                 } else {
                     ForEach(visibleModels) { model in

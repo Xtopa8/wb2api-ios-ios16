@@ -13,8 +13,8 @@ import Combine
 // MARK: 玻璃效果（Liquid Glass → ultraThinMaterial + 描边）
 
 struct WBGlassStyle {
-    @Published var tintColor: Color?
-    @Published var isInteractive = false
+    var tintColor: Color?
+    var isInteractive = false
 
     static var regular: WBGlassStyle { WBGlassStyle() }
 
@@ -38,7 +38,7 @@ struct WBGlassShape {
         case rect(CGFloat)
     }
 
-    @Published var kind: Kind
+    var kind: Kind
 
     static var capsule: WBGlassShape { WBGlassShape(kind: .capsule) }
     static var circle: WBGlassShape { WBGlassShape(kind: .circle) }
@@ -92,7 +92,7 @@ extension View {
 // MARK: 玻璃按钮样式（.glass / .glassProminent）
 
 struct WBGlassButtonStyle: ButtonStyle {
-    @Published var prominent = false
+    var prominent = false
 
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
