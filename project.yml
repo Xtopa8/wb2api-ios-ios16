@@ -1,0 +1,63 @@
+name: WB2API
+options:
+  bundleIdPrefix: org.example
+  deploymentTarget:
+    iOS: "16.3"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    SWIFT_STRICT_CONCURRENCY: minimal
+
+targets:
+  WB2API:
+    type: application
+    platform: iOS
+    sources:
+      - path: WB2API
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.example.wb2api
+        PRODUCT_NAME: WB2API
+        GENERATE_INFOPLIST_FILE: YES
+        MARKETING_VERSION: "1.3.0"
+        CURRENT_PROJECT_VERSION: "40"
+        INFOPLIST_KEY_CFBundleDisplayName: Work
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1,2"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
+
+  WB2APITests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: WB2APITests
+        excludes:
+          - Fixtures
+      - path: WB2APITests/Fixtures
+        buildPhase: resources
+    dependencies:
+      - target: WB2API
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.example.wb2api.tests
+        GENERATE_INFOPLIST_FILE: YES
+
+schemes:
+  WB2API:
+    build:
+      targets:
+        WB2API: all
+        WB2APITests: [test]
+    test:
+      targets:
+        - WB2APITests
+      gatherCoverageData: true

@@ -1,0 +1,879 @@
+{
+ "accounts": [
+  {
+   "uid": "8b7d5f58-48ce-4779-a9a2-516d25bce29d",
+   "nickname": "账号1",
+   "credits": 2548,
+   "credits_total": 3100,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-21T18:26:07+08:00",
+   "credits_earliest_remaining": 2048,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-21",
+     "expires_at": "2026-11-21T18:26:07+08:00",
+     "remain": 2048
+    },
+    {
+     "date": "2026-11-22",
+     "expires_at": "2026-11-22T00:44:28+08:00",
+     "remain": 400
+    },
+    {
+     "date": "2026-11-23",
+     "expires_at": "2026-11-23T00:44:16+08:00",
+     "remain": 100
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "rate_limited_models": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "kind": "rate_limit",
+     "until": "2026-10-23T21:25:41.049221631+08:00",
+     "reset_at": "2026-10-23T21:29:46+08:00",
+     "reason": "6004 model rate limit"
+    }
+   ],
+   "realm": "cn",
+   "disabled": false,
+   "success_count": 1621,
+   "last_success": "2026-10-23T19:27:08.170617749+08:00",
+   "last_err": "0001-01-01T00:00:00Z",
+   "checkin_done": true,
+   "token_usage": {
+    "request_count": 1626,
+    "usage_count": 1619,
+    "prompt_tokens": 399379101,
+    "completion_tokens": 1883762,
+    "total_tokens": 401262863,
+    "last_latency_ms": 10087,
+    "last_tokens_per_second": 70.48390609112722,
+    "last_used_at": "2026-10-23T19:27:08.170624394+08:00",
+    "last_model": "glm-5.3-flash"
+   },
+   "model_costs": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "cost_per_1k": 0.000714665159272597,
+     "last_seen": "2026-10-23T17:10:39.354983795+08:00",
+     "samples": 505
+    },
+    {
+     "model": "glm-5.3-flash",
+     "cost_per_1k": 0.012322513765879242,
+     "last_seen": "2026-10-23T19:27:08.170647824+08:00",
+     "samples": 3
+    }
+   ],
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  },
+  {
+   "uid": "fb9daa68-30da-449e-a192-cc7dfe4b3936",
+   "nickname": "账号1",
+   "credits": 2781,
+   "credits_total": 3100,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-21T18:49:55+08:00",
+   "credits_earliest_remaining": 2100,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-21",
+     "expires_at": "2026-11-21T18:49:55+08:00",
+     "remain": 2100
+    },
+    {
+     "date": "2026-11-22",
+     "expires_at": "2026-11-22T00:44:31+08:00",
+     "remain": 400
+    },
+    {
+     "date": "2026-11-23",
+     "expires_at": "2026-11-23T00:44:21+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2035-01-21",
+     "expires_at": "2035-01-21T18:49:55+08:00",
+     "remain": 181
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "rate_limited_models": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "kind": "rate_limit",
+     "until": "2026-10-23T20:37:10.76068227+08:00",
+     "reset_at": "2026-10-23T21:02:59+08:00",
+     "reason": "6004 model rate limit"
+    }
+   ],
+   "realm": "cn",
+   "disabled": false,
+   "success_count": 1629,
+   "last_success": "2026-10-23T18:37:30.782278364+08:00",
+   "last_err": "0001-01-01T00:00:00Z",
+   "checkin_done": true,
+   "token_usage": {
+    "request_count": 1642,
+    "usage_count": 1627,
+    "prompt_tokens": 400230521,
+    "completion_tokens": 1588881,
+    "total_tokens": 401819402,
+    "last_latency_ms": 6558,
+    "last_tokens_per_second": 69.32284649334734,
+    "last_used_at": "2026-10-23T18:37:30.782284182+08:00",
+    "last_model": "glm-5.3-flash"
+   },
+   "model_costs": [
+    {
+     "model": "glm-5.3-flash",
+     "cost_per_1k": 0.014093137254901961,
+     "last_seen": "2026-10-23T18:37:30.782308855+08:00",
+     "samples": 1
+    }
+   ],
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  },
+  {
+   "uid": "a89f306b-fa37-4691-a4a8-785bad14cf96",
+   "nickname": "账号1",
+   "credits": 2735,
+   "credits_total": 3100,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-21T18:34:52+08:00",
+   "credits_earliest_remaining": 2100,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-21",
+     "expires_at": "2026-11-21T18:34:52+08:00",
+     "remain": 2100
+    },
+    {
+     "date": "2026-11-22",
+     "expires_at": "2026-11-22T00:44:36+08:00",
+     "remain": 400
+    },
+    {
+     "date": "2026-11-23",
+     "expires_at": "2026-11-23T00:44:25+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2035-01-21",
+     "expires_at": "2035-01-21T18:34:51+08:00",
+     "remain": 135
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "rate_limited_models": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "kind": "rate_limit",
+     "until": "2026-10-23T20:37:11.616549747+08:00",
+     "reset_at": "2026-10-23T21:30:17+08:00",
+     "reason": "6004 model rate limit"
+    }
+   ],
+   "realm": "cn",
+   "disabled": false,
+   "success_count": 1402,
+   "last_success": "2026-10-23T11:10:50.644344367+08:00",
+   "last_err": "0001-01-01T00:00:00Z",
+   "checkin_done": true,
+   "token_usage": {
+    "request_count": 1411,
+    "usage_count": 1402,
+    "prompt_tokens": 401145211,
+    "completion_tokens": 1337950,
+    "total_tokens": 402483161,
+    "last_latency_ms": 239,
+    "last_used_at": "2026-10-23T18:37:11.616469122+08:00",
+    "last_model": "deepseek-v4.1-flash"
+   },
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  },
+  {
+   "uid": "28fd9411-297e-402f-a163-febd0ba72d8c",
+   "nickname": "账号1",
+   "credits": 2677,
+   "credits_total": 3100,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-21T18:39:40+08:00",
+   "credits_earliest_remaining": 2100,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-21",
+     "expires_at": "2026-11-21T18:39:40+08:00",
+     "remain": 2100
+    },
+    {
+     "date": "2026-11-22",
+     "expires_at": "2026-11-22T00:44:40+08:00",
+     "remain": 400
+    },
+    {
+     "date": "2026-11-23",
+     "expires_at": "2026-11-23T00:44:28+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2035-01-21",
+     "expires_at": "2035-01-21T18:39:39+08:00",
+     "remain": 77
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "rate_limited_models": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "kind": "rate_limit",
+     "until": "2026-10-23T20:37:25.197408791+08:00",
+     "reset_at": "2026-10-23T21:41:36+08:00",
+     "reason": "6004 model rate limit"
+    }
+   ],
+   "realm": "cn",
+   "disabled": false,
+   "success_count": 1877,
+   "last_success": "2026-10-23T19:32:13.865307695+08:00",
+   "last_err": "0001-01-01T00:00:00Z",
+   "checkin_done": true,
+   "token_usage": {
+    "request_count": 1884,
+    "usage_count": 1874,
+    "prompt_tokens": 400630411,
+    "completion_tokens": 1776547,
+    "total_tokens": 402406958,
+    "last_latency_ms": 29385,
+    "last_tokens_per_second": 44.00840641856152,
+    "last_used_at": "2026-10-23T19:32:36.030411487+08:00",
+    "last_model": "glm-5.3-flash"
+   },
+   "model_costs": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "cost_per_1k": 0.003725909459466788,
+     "last_seen": "2026-10-23T16:08:06.78596407+08:00",
+     "samples": 1027
+    },
+    {
+     "model": "glm-5.3-flash",
+     "cost_per_1k": 0.015275241475151892,
+     "last_seen": "2026-10-23T19:32:36.030447832+08:00",
+     "samples": 1
+    }
+   ],
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  },
+  {
+   "uid": "4a9b6a20-d1f8-4f40-a969-a15a48c55870",
+   "nickname": "账号1",
+   "credits": 1926,
+   "credits_total": 6523,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-12T00:50:48+08:00",
+   "credits_earliest_remaining": 210,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-12",
+     "expires_at": "2026-11-12T00:50:48+08:00",
+     "remain": 210
+    },
+    {
+     "date": "2026-11-13",
+     "expires_at": "2026-11-13T00:08:34+08:00",
+     "remain": 107
+    },
+    {
+     "date": "2026-11-14",
+     "expires_at": "2026-11-14T00:44:22+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-15",
+     "expires_at": "2026-11-15T00:07:37+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-16",
+     "expires_at": "2026-11-16T00:44:29+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-17",
+     "expires_at": "2026-11-17T00:45:10+08:00",
+     "remain": 600
+    },
+    {
+     "date": "2026-11-18",
+     "expires_at": "2026-11-18T21:56:39+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-19",
+     "expires_at": "2026-11-19T00:40:32+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-20",
+     "expires_at": "2026-11-20T00:44:19+08:00",
+     "remain": 209
+    },
+    {
+     "date": "2026-11-21",
+     "expires_at": "2026-11-21T00:49:01+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-22",
+     "expires_at": "2026-11-22T00:44:44+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-23",
+     "expires_at": "2026-11-23T00:44:31+08:00",
+     "remain": 100
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "realm": "cn",
+   "disabled": false,
+   "success_count": 12094,
+   "err_total": 13,
+   "last_success": "2026-10-23T11:10:49.644552456+08:00",
+   "last_err": "2026-10-15T11:30:39.695915884+08:00",
+   "checkin_done": true,
+   "token_usage": {
+    "request_count": 12342,
+    "usage_count": 12061,
+    "prompt_tokens": 2345617620,
+    "completion_tokens": 12432435,
+    "total_tokens": 2358050055,
+    "last_latency_ms": 440,
+    "last_used_at": "2026-10-23T19:32:38.291827382+08:00",
+    "last_model": "glm-5.3-flash"
+   },
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  },
+  {
+   "uid": "69c305c0-9d12-465d-a8bd-1394e82b7558",
+   "nickname": "账号1",
+   "credits": 2298,
+   "credits_total": 3200,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-20T21:19:15+08:00",
+   "credits_earliest_remaining": 1498,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-20",
+     "expires_at": "2026-11-20T21:19:15+08:00",
+     "remain": 1498
+    },
+    {
+     "date": "2026-11-21",
+     "expires_at": "2026-11-21T00:49:06+08:00",
+     "remain": 600
+    },
+    {
+     "date": "2026-11-22",
+     "expires_at": "2026-11-22T00:44:53+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-23",
+     "expires_at": "2026-11-23T00:44:35+08:00",
+     "remain": 100
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "rate_limited_models": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "kind": "rate_limit",
+     "until": "2026-10-23T21:25:37.281731794+08:00",
+     "reset_at": "2026-10-24T06:01:23+08:00",
+     "reason": "6004 model rate limit"
+    }
+   ],
+   "realm": "cn",
+   "disabled": false,
+   "success_count": 2533,
+   "last_success": "2026-10-23T19:34:04.357914536+08:00",
+   "last_err": "0001-01-01T00:00:00Z",
+   "checkin_done": true,
+   "token_usage": {
+    "request_count": 2552,
+    "usage_count": 2475,
+    "prompt_tokens": 639365354,
+    "completion_tokens": 2257057,
+    "total_tokens": 641622411,
+    "last_latency_ms": 3858,
+    "last_used_at": "2026-10-23T19:34:04.375236912+08:00",
+    "last_model": "glm-5.3-flash"
+   },
+   "model_costs": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "cost_per_1k": 0.00041469703331342505,
+     "last_seen": "2026-10-23T19:25:37.033450768+08:00",
+     "samples": 763
+    },
+    {
+     "model": "glm-5.3-flash",
+     "cost_per_1k": 0.011733659117450083,
+     "last_seen": "2026-10-23T19:33:50.682776683+08:00",
+     "samples": 2
+    },
+    {
+     "model": "kimi-k3-1",
+     "cost_per_1k": 1.7391304347826086,
+     "last_seen": "2026-10-23T17:30:01.784192963+08:00",
+     "samples": 1
+    }
+   ],
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  },
+  {
+   "uid": "e974ff31-60bf-49dd-acf2-91680ceb59b4",
+   "nickname": "账号1",
+   "credits": 90,
+   "credits_total": 470,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-12T07:13:28+08:00",
+   "credits_earliest_remaining": 90,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-12",
+     "expires_at": "2026-11-12T07:13:28+08:00",
+     "remain": 90
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "realm": "global",
+   "disabled": false,
+   "success_count": 115,
+   "last_success": "2026-10-13T20:01:44.127515881+08:00",
+   "last_err": "0001-01-01T00:00:00Z",
+   "token_usage": {
+    "request_count": 120,
+    "usage_count": 115,
+    "prompt_tokens": 6342445,
+    "completion_tokens": 51655,
+    "total_tokens": 6394100,
+    "last_latency_ms": 1017,
+    "last_used_at": "2026-10-23T11:10:38.968490851+08:00",
+    "last_model": "gpt-6-luna"
+   },
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  },
+  {
+   "uid": "c15c16be-9071-49da-ad54-f8f5819de77c",
+   "nickname": "账号1",
+   "credits": 1472,
+   "credits_total": 6018,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-16T00:44:37+08:00",
+   "credits_earliest_remaining": 62,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-16",
+     "expires_at": "2026-11-16T00:44:37+08:00",
+     "remain": 62
+    },
+    {
+     "date": "2026-11-17",
+     "expires_at": "2026-11-17T00:45:26+08:00",
+     "remain": 600
+    },
+    {
+     "date": "2026-11-18",
+     "expires_at": "2026-11-18T00:44:24+08:00",
+     "remain": 105
+    },
+    {
+     "date": "2026-11-19",
+     "expires_at": "2026-11-19T00:40:33+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-20",
+     "expires_at": "2026-11-20T00:44:28+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-21",
+     "expires_at": "2026-11-21T00:49:13+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-22",
+     "expires_at": "2026-11-22T00:45:05+08:00",
+     "remain": 105
+    },
+    {
+     "date": "2026-11-23",
+     "expires_at": "2026-11-23T00:44:42+08:00",
+     "remain": 300
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "rate_limited_models": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "kind": "rate_limit",
+     "until": "2026-10-23T21:26:19.577534335+08:00",
+     "reset_at": "2026-10-24T00:44:25+08:00",
+     "reason": "6004 model rate limit"
+    }
+   ],
+   "realm": "cn",
+   "disabled": false,
+   "success_count": 12018,
+   "err_total": 1,
+   "last_success": "2026-10-23T19:31:23.138842476+08:00",
+   "last_err": "2026-10-21T19:28:54.075170295+08:00",
+   "checkin_done": true,
+   "token_usage": {
+    "request_count": 12084,
+    "usage_count": 11984,
+    "prompt_tokens": 2583338840,
+    "completion_tokens": 12250180,
+    "total_tokens": 2595589020,
+    "last_latency_ms": 964,
+    "last_used_at": "2026-10-23T19:31:23.263380911+08:00",
+    "last_model": "kimi-k2.6"
+   },
+   "model_costs": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "cost_per_1k": 0.0014389871883601158,
+     "last_seen": "2026-10-23T17:26:30.134040209+08:00",
+     "samples": 590
+    },
+    {
+     "model": "kimi-k2.6",
+     "cost_per_1k": 0.23255813953488375,
+     "last_seen": "2026-10-23T19:31:23.263493804+08:00",
+     "samples": 1
+    }
+   ],
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  },
+  {
+   "uid": "48ad4fa2-2aef-4c5c-a7aa-4c34dc4f2162",
+   "nickname": "账号1",
+   "credits": 90,
+   "credits_total": 470,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-12T07:13:28+08:00",
+   "credits_earliest_remaining": 90,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-12",
+     "expires_at": "2026-11-12T07:13:28+08:00",
+     "remain": 90
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "realm": "global",
+   "disabled": false,
+   "success_count": 108,
+   "last_success": "2026-10-13T20:13:50.055032105+08:00",
+   "last_err": "0001-01-01T00:00:00Z",
+   "token_usage": {
+    "request_count": 113,
+    "usage_count": 108,
+    "prompt_tokens": 8729332,
+    "completion_tokens": 48290,
+    "total_tokens": 8777622,
+    "last_latency_ms": 1019,
+    "last_used_at": "2026-10-23T11:10:38.969667589+08:00",
+    "last_model": "gpt-6-astra"
+   },
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  },
+  {
+   "uid": "a15f13f5-4b54-4f69-add2-d941b9744b0d",
+   "nickname": "账号1",
+   "credits": 1969,
+   "credits_total": 6214,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-12T09:59:28+08:00",
+   "credits_earliest_remaining": 262,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-12",
+     "expires_at": "2026-11-12T09:59:28+08:00",
+     "remain": 262
+    },
+    {
+     "date": "2026-11-13",
+     "expires_at": "2026-11-13T00:08:36+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-14",
+     "expires_at": "2026-11-14T00:44:12+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-15",
+     "expires_at": "2026-11-15T00:07:38+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-16",
+     "expires_at": "2026-11-16T00:44:10+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-17",
+     "expires_at": "2026-11-17T00:44:55+08:00",
+     "remain": 600
+    },
+    {
+     "date": "2026-11-18",
+     "expires_at": "2026-11-18T00:44:05+08:00",
+     "remain": 107
+    },
+    {
+     "date": "2026-11-19",
+     "expires_at": "2026-11-19T00:40:34+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-20",
+     "expires_at": "2026-11-20T00:44:09+08:00",
+     "remain": 200
+    },
+    {
+     "date": "2026-11-21",
+     "expires_at": "2026-11-21T00:48:49+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-22",
+     "expires_at": "2026-11-22T00:44:07+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-23",
+     "expires_at": "2026-11-23T00:44:05+08:00",
+     "remain": 100
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "rate_limited_models": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "kind": "rate_limit",
+     "until": "2026-10-23T20:37:24.132048996+08:00",
+     "reset_at": "2026-10-24T12:31:58+08:00",
+     "reason": "6004 model rate limit"
+    }
+   ],
+   "realm": "cn",
+   "disabled": false,
+   "success_count": 12894,
+   "err_total": 48,
+   "last_success": "2026-10-23T16:04:59.891978682+08:00",
+   "last_err": "2026-10-15T11:19:51.993368217+08:00",
+   "checkin_done": true,
+   "token_usage": {
+    "request_count": 13077,
+    "usage_count": 12855,
+    "prompt_tokens": 2632883277,
+    "completion_tokens": 14751385,
+    "total_tokens": 2647634662,
+    "last_latency_ms": 637,
+    "last_used_at": "2026-10-23T18:37:24.132006759+08:00",
+    "last_model": "deepseek-v4.1-flash"
+   },
+   "model_costs": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "cost_per_1k": 0.001021289321802933,
+     "last_seen": "2026-10-23T16:04:59.892024649+08:00",
+     "samples": 575
+    }
+   ],
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  },
+  {
+   "uid": "5eb94615-7ce7-48cf-a3d1-d7d955579c91",
+   "nickname": "账号1",
+   "credits": 2721,
+   "credits_total": 3300,
+   "session_dead_fails": 0,
+   "credits_earliest_expiry": "2026-11-19T17:26:41+08:00",
+   "credits_earliest_remaining": 1521,
+   "credits_expiry_buckets": [
+    {
+     "date": "2026-11-19",
+     "expires_at": "2026-11-19T17:26:41+08:00",
+     "remain": 1521
+    },
+    {
+     "date": "2026-11-20",
+     "expires_at": "2026-11-20T21:00:40+08:00",
+     "remain": 400
+    },
+    {
+     "date": "2026-11-21",
+     "expires_at": "2026-11-21T00:55:23+08:00",
+     "remain": 600
+    },
+    {
+     "date": "2026-11-22",
+     "expires_at": "2026-11-22T00:45:13+08:00",
+     "remain": 100
+    },
+    {
+     "date": "2026-11-23",
+     "expires_at": "2026-11-23T00:44:49+08:00",
+     "remain": 100
+    }
+   ],
+   "cooling": false,
+   "until": "0001-01-01T00:00:00Z",
+   "rate_limited_models": [
+    {
+     "model": "deepseek-v4.1-flash",
+     "kind": "rate_limit",
+     "until": "2026-10-23T20:37:12.828686707+08:00",
+     "reset_at": "2026-10-23T21:44:45+08:00",
+     "reason": "6004 model rate limit"
+    }
+   ],
+   "realm": "cn",
+   "disabled": false,
+   "success_count": 2413,
+   "last_success": "2026-10-23T19:32:45.566333433+08:00",
+   "last_err": "0001-01-01T00:00:00Z",
+   "checkin_done": true,
+   "token_usage": {
+    "request_count": 2429,
+    "usage_count": 2413,
+    "prompt_tokens": 617560614,
+    "completion_tokens": 2439831,
+    "total_tokens": 620000445,
+    "last_latency_ms": 10114,
+    "last_tokens_per_second": 43.993520187643334,
+    "last_used_at": "2026-10-23T19:32:49.031169833+08:00",
+    "last_model": "glm-5.3-flash"
+   },
+   "model_costs": [
+    {
+     "model": "glm-5.3-flash",
+     "cost_per_1k": 0.01493068602052722,
+     "last_seen": "2026-10-23T19:32:49.03129653+08:00",
+     "samples": 1
+    }
+   ],
+   "consecutive_fails": 0,
+   "degrade_until": "0001-01-01T00:00:00Z",
+   "in_flight": 0,
+   "breaker_fails": 0,
+   "breaker_until": "0001-01-01T00:00:00Z"
+  }
+ ],
+ "cooling": 0,
+ "cost_explore": {
+  "events_total": 0,
+  "per_model": {}
+ },
+ "credit_floor": 0,
+ "daily_budget": {
+  "day": "2026-10-23",
+  "last_reject": "",
+  "limit": 0,
+  "rejected": 0,
+  "used": 3.3000000000000003
+ },
+ "disabled": 0,
+ "healthy": 11,
+ "in_flight_full": 0,
+ "model_locks": [
+  {
+   "model": "deepseek-v4.1-flash",
+   "realm": "cn",
+   "total": 9,
+   "servable": 1,
+   "locked": 8,
+   "state": "partial",
+   "unlock_at": "2026-10-23T20:37:10.76068227+08:00",
+   "fully_unlock_at": "2026-10-23T21:26:19.577534335+08:00",
+   "reason": "6004 model rate limit"
+  }
+ ],
+ "realm_totals": {
+  "cn": {
+   "cooling": 0,
+   "disabled": 0,
+   "healthy": 9,
+   "in_flight_full": 0,
+   "total": 9
+  },
+  "global": {
+   "cooling": 0,
+   "disabled": 0,
+   "healthy": 2,
+   "in_flight_full": 0,
+   "total": 2
+  }
+ },
+ "redis_mode": "noop",
+ "sticky_sessions": 4,
+ "total": 11
+}

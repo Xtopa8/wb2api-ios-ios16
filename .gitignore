@@ -1,0 +1,19 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+.build/
+
+# macOS
+.DS_Store
+
+# Swift
+.swiftpm/
+Package.resolved
+
+# 本地产物
+dist/
+icon-candidates/

@@ -1,0 +1,157 @@
+{
+ "api_key_env_managed": false,
+ "config": {
+  "listen": "127.0.0.1:8321",
+  "api_key": "REDACTED",
+  "auth_dir": "./auths",
+  "state_file": "./data/state.json",
+  "panel": {
+   "package_detail_limit": 5
+  },
+  "logging": {
+   "request_archive_enabled": false,
+   "request_retention_days": 7,
+   "request_archive_max_mb": 100,
+   "request_client_info": false
+  },
+  "server": {
+   "read_timeout": "300s"
+  },
+  "cooldown": {
+   "soft_rate": "600s",
+   "soft_rate_max": "2h"
+  },
+  "schedule": {
+   "checkin_hours": [
+    9,
+    21
+   ],
+   "travel_hours": [
+    9,
+    21
+   ],
+   "activity_hours": [
+    10
+   ],
+   "keepalive_hours": [
+    22
+   ],
+   "blackcat_hours": [
+    23
+   ],
+   "growth_hours": [
+    11
+   ],
+   "checkin_enabled": false,
+   "travel_enabled": false,
+   "activity_enabled": false,
+   "keepalive_enabled": false,
+   "blackcat_enabled": false,
+   "growth_enabled": false,
+   "include_disabled_in_tasks": false,
+   "growth_concurrency": 1,
+   "jitter_minutes": 0,
+   "account_spread_minutes": 0,
+   "account_spread_min_gap_seconds": 0,
+   "balance_refresh_enabled": false,
+   "balance_refresh_minutes": 5,
+   "task_sweep_enabled": true,
+   "task_sweep_minutes": 15
+  },
+  "global": {
+   "enabled": true,
+   "chat_base": "",
+   "billing_base": ""
+  },
+  "cn": {
+   "chat_base": ""
+  },
+  "upstream": {
+   "timeout_seconds": 120,
+   "header_timeout_seconds": 120,
+   "idle_timeout_seconds": 300,
+   "user_agent": "",
+   "client_version": "",
+   "cli_version": "",
+   "client_name": "WorkBuddy",
+   "device_token": "REDACTED",
+   "device_token_file": "",
+   "passthrough_ip": false,
+   "dump_dir": "",
+   "dump_max_bytes": 0
+  },
+  "features": {
+   "sanitize_blacklist_fingerprints": true,
+   "sanitize_brand_scope": "all"
+  },
+  "models": {
+   "hidden": null,
+   "aliases": null
+  },
+  "prompt": {
+   "mode": "passthrough",
+   "file": ""
+  },
+  "upstash": {
+   "url": "",
+   "token": "REDACTED"
+  },
+  "pool": {
+   "max_in_flight": 3,
+   "max_in_flight_global": 2,
+   "breaker_threshold": 3,
+   "breaker_cooldown": "30m",
+   "breaker_cooldown_max": "6h",
+   "degrade_threshold": 5,
+   "degrade_cooldown": "10m",
+   "degrade_cooldown_max": "2h",
+   "idle_weight_per_hour": 0.5,
+   "idle_weight_max": 5,
+   "prefer_expiring": true,
+   "expiring_soon": "168h",
+   "cost_explore_interval": "30m",
+   "reserve_credits": 10,
+   "account_priority": null,
+   "account_share": null,
+   "credit_floor": 0,
+   "credit_floor_max_rate": 0,
+   "model_fallback": null
+  },
+  "session_sticky": {
+   "enabled": true,
+   "ttl": "30m",
+   "gc_interval": "5m"
+  },
+  "admin": {
+   "enabled": false,
+   "audit_enabled": false,
+   "audit_file": "./data/admin_audit.log"
+  },
+  "metrics": {
+   "enabled": false
+  },
+  "alerting": {
+   "enabled": false,
+   "webhook_url": "",
+   "secret": "",
+   "interval_seconds": 30,
+   "timeout_seconds": 5,
+   "startup_grace_seconds": 30,
+   "min_healthy_cn": 1,
+   "min_healthy_global": 0,
+   "recover_healthy": 1,
+   "breaker_threshold": 0,
+   "for_ticks": 2,
+   "clear_ticks": 2,
+   "send_resolve": false
+  },
+  "budget": {
+   "daily_credit_limit": 0,
+   "burst_credit_limit": 0,
+   "cache_low_rate": 0
+  }
+ },
+ "environment_managed_fields": null,
+ "ok": true,
+ "path": "config.json"
+}

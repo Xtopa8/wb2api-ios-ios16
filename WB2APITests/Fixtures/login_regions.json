@@ -1,0 +1,33 @@
+{
+ "ok": true,
+ "regions": [
+  {
+   "code": "HK",
+   "name": "账号1"
+  },
+  {
+   "code": "MO",
+   "name": "账号1"
+  },
+  {
+   "code": "SG",
+   "name": "账号1"
+  },
+  {
+   "code": "TH",
+   "name": "账号1"
+  },
+  {
+   "code": "PH",
+   "name": "账号1"
+  },
+  {
+   "code": "MY",
+   "name": "账号1"
+  },
+  {
+   "code": "ID",
+   "name": "账号1"
+  }
+ ]
+}

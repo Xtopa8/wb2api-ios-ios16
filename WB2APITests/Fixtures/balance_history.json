@@ -1,0 +1,247 @@
+{
+ "days": 30,
+ "now": "2026-10-23T19:52:38+08:00",
+ "ok": true,
+ "series": [
+  {
+   "uid": "fb9daa68-30da-449e-a192-cc7dfe4b3936",
+   "name": "账号1",
+   "points": [
+    {
+     "t": 1792755995,
+     "u": "0c4f33d9-c569-4930-a7bf-6d960fcb735f",
+     "c": 2781
+    }
+   ],
+   "current": 2781,
+   "min": 2781,
+   "max": 2781,
+   "change": 0,
+   "daily": [
+    {
+     "day": "2026-10-23",
+     "first": 2781,
+     "last": 2781,
+     "change": 0,
+     "min": 2781,
+     "max": 2781,
+     "n": 1,
+     "full": false,
+     "consumed": 0,
+     "gained": 0
+    }
+   ],
+   "realm": "cn"
+  },
+  {
+   "uid": "a89f306b-fa37-4691-a4a8-785bad14cf96",
+   "name": "账号1",
+   "points": [
+    {
+     "t": 1792755995,
+     "u": "6acaa8ca-3f55-42b0-a3c4-1df0c39fae98",
+     "c": 2735
+    }
+   ],
+   "current": 2735,
+   "min": 2735,
+   "max": 2735,
+   "change": 0,
+   "daily": [
+    {
+     "day": "2026-10-23",
+     "first": 2735,
+     "last": 2735,
+     "change": 0,
+     "min": 2735,
+     "max": 2735,
+     "n": 1,
+     "full": false,
+     "consumed": 0,
+     "gained": 0
+    }
+   ],
+   "realm": "cn"
+  },
+  {
+   "uid": "5eb94615-7ce7-48cf-a3d1-d7d955579c91",
+   "name": "账号1",
+   "points": [
+    {
+     "t": 1792755995,
+     "u": "956bb305-3d4e-47d2-a30f-d797e249111d",
+     "c": 2721
+    }
+   ],
+   "current": 2721,
+   "min": 2721,
+   "max": 2721,
+   "change": 0,
+   "daily": [
+    {
+     "day": "2026-10-23",
+     "first": 2721,
+     "last": 2721,
+     "change": 0,
+     "min": 2721,
+     "max": 2721,
+     "n": 1,
+     "full": false,
+     "consumed": 0,
+     "gained": 0
+    }
+   ],
+   "realm": "cn"
+  },
+  {
+   "uid": "28fd9411-297e-402f-a163-febd0ba72d8c",
+   "name": "账号1",
+   "points": [
+    {
+     "t": 1792755995,
+     "u": "a3b58149-e805-4dde-a51c-fedc72e0c217",
+     "c": 2677
+    }
+   ],
+   "current": 2677,
+   "min": 2677,
+   "max": 2677,
+   "change": 0,
+   "daily": [
+    {
+     "day": "2026-10-23",
+     "first": 2677,
+     "last": 2677,
+     "change": 0,
+     "min": 2677,
+     "max": 2677,
+     "n": 1,
+     "full": false,
+     "consumed": 0,
+     "gained": 0
+    }
+   ],
+   "realm": "cn"
+  },
+  {
+   "uid": "8b7d5f58-48ce-4779-a9a2-516d25bce29d",
+   "name": "账号1",
+   "points": [
+    {
+     "t": 1792755995,
+     "u": "d1c1ce5c-39fd-485f-a617-d73e69d8b52b",
+     "c": 2548
+    }
+   ],
+   "current": 2548,
+   "min": 2548,
+   "max": 2548,
+   "change": 0,
+   "daily": [
+    {
+     "day": "2026-10-23",
+     "first": 2548,
+     "last": 2548,
+     "change": 0,
+     "min": 2548,
+     "max": 2548,
+     "n": 1,
+     "full": false,
+     "consumed": 0,
+     "gained": 0
+    }
+   ],
+   "realm": "cn"
+  },
+  {
+   "uid": "69c305c0-9d12-465d-a8bd-1394e82b7558",
+   "name": "账号1",
+   "points": [
+    {
+     "t": 1792755995,
+     "u": "d20b5528-3df5-4200-a4fa-1bd25b07319d",
+     "c": 2298
+    }
+   ],
+   "current": 2298,
+   "min": 2298,
+   "max": 2298,
+   "change": 0,
+   "daily": [
+    {
+     "day": "2026-10-23",
+     "first": 2298,
+     "last": 2298,
+     "change": 0,
+     "min": 2298,
+     "max": 2298,
+     "n": 1,
+     "full": false,
+     "consumed": 0,
+     "gained": 0
+    }
+   ],
+   "realm": "cn"
+  },
+  {
+   "uid": "a15f13f5-4b54-4f69-add2-d941b9744b0d",
+   "name": "账号1",
+   "points": [
+    {
+     "t": 1792755995,
+     "u": "0ba5fde2-1bf1-4aed-a1cb-83af6f84ef9b",
+     "c": 1969
+    }
+   ],
+   "current": 1969,
+   "min": 1969,
+   "max": 1969,
+   "change": 0,
+   "daily": [
+    {
+     "day": "2026-10-23",
+     "first": 1969,
+     "last": 1969,
+     "change": 0,
+     "min": 1969,
+     "max": 1969,
+     "n": 1,
+     "full": false,
+     "consumed": 0,
+     "gained": 0
+    }
+   ],
+   "realm": "cn"
+  },
+  {
+   "uid": "c15c16be-9071-49da-ad54-f8f5819de77c",
+   "name": "账号1",
+   "points": [
+    {
+     "t": 1792755995,
+     "u": "b1184f4c-d011-4a32-a9ec-7c79b8103393",
+     "c": 1472
+    }
+   ],
+   "current": 1472,
+   "min": 1472,
+   "max": 1472,
+   "change": 0,
+   "daily": [
+    {
+     "day": "2026-10-23",
+     "first": 1472,
+     "last": 1472,
+     "change": 0,
+     "min": 1472,
+     "max": 1472,
+     "n": 1,
+     "full": false,
+     "consumed": 0,
+     "gained": 0
+    }
+   ],
+   "realm": "cn"
+  }
+ ]
+}

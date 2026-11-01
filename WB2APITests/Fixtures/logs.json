@@ -1,0 +1,410 @@
+{
+ "archive_error": "",
+ "entries": [
+  {
+   "ts": "2026-10-23T19:30:06.207383914+08:00",
+   "ch": "sys",
+   "text": "workbuddy2api listening on 127.0.0.1:8321 (api_key=***, 来源 配置文件 config.json)，管理面板 http://127.0.0.1:8321/panel/"
+  },
+  {
+   "ts": "2026-10-23T19:30:06.207427286+08:00",
+   "ch": "sys",
+   "text": "scheduler: 补领清扫每 15m0s（暂停中显示 0s）"
+  },
+  {
+   "ts": "2026-10-23T19:30:06.870950777+08:00",
+   "ch": "sys",
+   "text": "[upstream] warm model rates: cn ok"
+  },
+  {
+   "ts": "2026-10-23T19:30:47.550594391+08:00",
+   "ch": "sys",
+   "text": "WARN: [pool] fallback_earliest_expiry acct=账号J(88c108e6) until=2026-10-23T19:35:38+08:00 kind=soft"
+  },
+  {
+   "ts": "2026-10-23T19:30:48.303335641+08:00",
+   "ch": "sys",
+   "text": "WARN: [upstream] chat_stream acct=账号J(88c108e6): upstream 401 session_dead body=<html>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:48.303335641+08:00",
+   "ch": "sys",
+   "text": "<head><title>401 Authorization Required</title></head>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:48.303335641+08:00",
+   "ch": "sys",
+   "text": "<body>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:48.303335641+08:00",
+   "ch": "sys",
+   "text": "<center><h1>401 Authorization Required</h1></center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:48.303335641+08:00",
+   "ch": "sys",
+   "text": "<hr><center>openresty</center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:48.303335641+08:00",
+   "ch": "sys",
+   "text": "<p><em>Powered by <a href=\"https://apisix."
+  },
+  {
+   "ts": "2026-10-23T19:30:48.766662984+08:00",
+   "ch": "chat",
+   "text": "| #001 | 19:30:48 | deepseek-v4.1-flash        | stream | 503 | 账号J(88c108e6)      | TTFB=-        | tok=-      | -           | cache=-      | total=1.3s | prep=64ms do=688ms effort=max"
+  },
+  {
+   "ts": "2026-10-23T19:30:49.743096654+08:00",
+   "ch": "sys",
+   "text": "WARN: [pool] fallback_earliest_expiry acct=账号J(88c108e6) until=2026-10-23T19:35:38+08:00 kind=soft"
+  },
+  {
+   "ts": "2026-10-23T19:30:50.875214239+08:00",
+   "ch": "sys",
+   "text": "WARN: [upstream] chat_stream acct=账号J(88c108e6): upstream 401 session_dead body=<html>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:50.875214239+08:00",
+   "ch": "sys",
+   "text": "<head><title>401 Authorization Required</title></head>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:50.875214239+08:00",
+   "ch": "sys",
+   "text": "<body>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:50.875214239+08:00",
+   "ch": "sys",
+   "text": "<center><h1>401 Authorization Required</h1></center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:50.875214239+08:00",
+   "ch": "sys",
+   "text": "<hr><center>openresty</center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:50.875214239+08:00",
+   "ch": "sys",
+   "text": "<p><em>Powered by <a href=\"https://apisix."
+  },
+  {
+   "ts": "2026-10-23T19:30:51.494877809+08:00",
+   "ch": "chat",
+   "text": "| #002 | 19:30:51 | deepseek-v4.1-flash        | stream | 503 | 账号J(88c108e6)      | TTFB=-        | tok=-      | -           | cache=-      | total=1.8s | prep=71ms do=1059ms effort=max"
+  },
+  {
+   "ts": "2026-10-23T19:30:53.255369327+08:00",
+   "ch": "sys",
+   "text": "WARN: [pool] fallback_earliest_expiry acct=账号J(88c108e6) until=2026-10-23T19:35:38+08:00 kind=soft"
+  },
+  {
+   "ts": "2026-10-23T19:30:54.037633449+08:00",
+   "ch": "sys",
+   "text": "WARN: [upstream] chat_stream acct=账号J(88c108e6): upstream 401 session_dead body=<html>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:54.037633449+08:00",
+   "ch": "sys",
+   "text": "<head><title>401 Authorization Required</title></head>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:54.037633449+08:00",
+   "ch": "sys",
+   "text": "<body>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:54.037633449+08:00",
+   "ch": "sys",
+   "text": "<center><h1>401 Authorization Required</h1></center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:54.037633449+08:00",
+   "ch": "sys",
+   "text": "<hr><center>openresty</center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:30:54.037633449+08:00",
+   "ch": "sys",
+   "text": "<p><em>Powered by <a href=\"https://apisix."
+  },
+  {
+   "ts": "2026-10-23T19:30:54.037786004+08:00",
+   "ch": "sys",
+   "text": "WARN: [server] 账号 88c108e6 连续 3 次网关 401（token 被上游判无效）→ 禁用，需重新登录"
+  },
+  {
+   "ts": "2026-10-23T19:30:54.608015294+08:00",
+   "ch": "chat",
+   "text": "| #003 | 19:30:54 | deepseek-v4.1-flash        | stream | 503 | 账号J(88c108e6)      | TTFB=-        | tok=-      | -           | cache=-      | total=1.4s | prep=82ms do=699ms effort=max"
+  },
+  {
+   "ts": "2026-10-23T19:30:57.130702583+08:00",
+   "ch": "chat",
+   "text": "| #004 | 19:30:57 | deepseek-v4.1-flash        | stream | 503 | -                      | TTFB=-        | tok=-      | -           | cache=-      | total=0.0s |"
+  },
+  {
+   "ts": "2026-10-23T19:31:23.263541753+08:00",
+   "ch": "chat",
+   "text": "| #005 | 19:31:23 | cn:kimi-k2.6               | sync | 200 | 账号03(d9300901)  | TTFB=-        | tok=4      | -           | cache=0%     | total=1.0s | prep=0ms do=839ms"
+  },
+  {
+   "ts": "2026-10-23T19:31:39.992198587+08:00",
+   "ch": "chat",
+   "text": "| #006 | 19:31:39 | deepseek-v4.1-flash        | stream | 503 | -                      | TTFB=-        | tok=-      | -           | cache=-      | total=0.0s |"
+  },
+  {
+   "ts": "2026-10-23T19:31:41.356797494+08:00",
+   "ch": "chat",
+   "text": "| #007 | 19:31:41 | deepseek-v4.1-flash        | stream | 503 | -                      | TTFB=-        | tok=-      | -           | cache=-      | total=0.1s |"
+  },
+  {
+   "ts": "2026-10-23T19:31:42.829838373+08:00",
+   "ch": "chat",
+   "text": "| #008 | 19:31:42 | deepseek-v4.1-flash        | stream | 503 | -                      | TTFB=-        | tok=-      | -           | cache=-      | total=0.0s |"
+  },
+  {
+   "ts": "2026-10-23T19:31:45.344950549+08:00",
+   "ch": "chat",
+   "text": "| #009 | 19:31:45 | deepseek-v4.1-flash        | stream | 503 | -                      | TTFB=-        | tok=-      | -           | cache=-      | total=0.1s |"
+  },
+  {
+   "ts": "2026-10-23T19:31:54.819899972+08:00",
+   "ch": "chat",
+   "text": "| #010 | 19:31:54 | cn:deepseek-v4.1-flash     | stream | 503 | -                      | TTFB=-        | tok=-      | -           | cache=-      | total=0.0s |"
+  },
+  {
+   "ts": "2026-10-23T19:31:57.725812416+08:00",
+   "ch": "chat",
+   "text": "| #011 | 19:31:57 | cn:deepseek-v4.1-flash     | stream | 503 | -                      | TTFB=-        | tok=-      | -           | cache=-      | total=0.0s |"
+  },
+  {
+   "ts": "2026-10-23T19:32:27.378905579+08:00",
+   "ch": "sys",
+   "text": "panel: revive uid=f80f7219-2d2f-4c71-add1-f93e82757e5e（人工清除禁用/冷却/熔断）"
+  },
+  {
+   "ts": "2026-10-23T19:32:36.030538295+08:00",
+   "ch": "chat",
+   "text": "| #012 | 19:32:36 | cn:glm-5.3-flash           | stream | 200 | 账号04(390440f9)     | TTFB=7252ms   | tok=974 think=0 | 44.0tok/s   | cache=0%     | total=29.4s | prep=35ms do=7185ms"
+  },
+  {
+   "ts": "2026-10-23T19:32:38.291790683+08:00",
+   "ch": "sys",
+   "text": "WARN: [upstream] chat_stream acct=账号J(88c108e6): upstream 401 session_dead body=<html>\r"
+  },
+  {
+   "ts": "2026-10-23T19:32:38.291790683+08:00",
+   "ch": "sys",
+   "text": "<head><title>401 Authorization Required</title></head>\r"
+  },
+  {
+   "ts": "2026-10-23T19:32:38.291790683+08:00",
+   "ch": "sys",
+   "text": "<body>\r"
+  },
+  {
+   "ts": "2026-10-23T19:32:38.291790683+08:00",
+   "ch": "sys",
+   "text": "<center><h1>401 Authorization Required</h1></center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:32:38.291790683+08:00",
+   "ch": "sys",
+   "text": "<hr><center>openresty</center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:32:38.291790683+08:00",
+   "ch": "sys",
+   "text": "<p><em>Powered by <a href=\"https://apisix."
+  },
+  {
+   "ts": "2026-10-23T19:32:49.031271034+08:00",
+   "ch": "sys",
+   "text": "WARN: [server] stream acct=账号02(f6cee0dd) model=glm-5.3-flash: finish_reason=stop with zero tool_calls despite 10 declared tool(s) (silent stop; client may treat the turn as complete)"
+  },
+  {
+   "ts": "2026-10-23T19:32:49.031347134+08:00",
+   "ch": "chat",
+   "text": "| #013 | 19:32:49 | cn:glm-5.3-flash           | stream | 200 | 账号02(f6cee0dd)     | TTFB=7750ms   | tok=104 think=0 | 30.1tok/s   | cache=0%     | total=11.2s | prep=39ms do=6610ms"
+  },
+  {
+   "ts": "2026-10-23T19:33:28.372819957+08:00",
+   "ch": "sys",
+   "text": "ERR: [upstream] chat_stream acct=账号01(9d9b656c): transport error: Post \"https://copilot.tencent.com/v2/chat/completions\": context canceled"
+  },
+  {
+   "ts": "2026-10-23T19:33:28.373001451+08:00",
+   "ch": "chat",
+   "text": "| #014 | 19:33:28 | cn:glm-5.3-flash           | stream | 503 | 账号01(9d9b656c)     | TTFB=-        | tok=-      | -           | cache=-      | total=19.6s | prep=36ms do=19580ms"
+  },
+  {
+   "ts": "2026-10-23T19:33:50.682827676+08:00",
+   "ch": "chat",
+   "text": "| #015 | 19:33:50 | cn:glm-5.3-flash           | stream | 200 | 账号01(9d9b656c)     | TTFB=3406ms   | tok=212 think=86 | 77.6tok/s   | cache=99%    | total=6.1s | prep=37ms do=3328ms"
+  },
+  {
+   "ts": "2026-10-23T19:33:53.423926553+08:00",
+   "ch": "sys",
+   "text": "panel: 发起 OAuth 添加账号 realm=cn（state=4004069c...）"
+  },
+  {
+   "ts": "2026-10-23T19:34:00.73167697+08:00",
+   "ch": "sys",
+   "text": "WARN: [continue] acct=账号01(9d9b656c) 段无 finish 结束（疑似上游断流，按截断终态降级）"
+  },
+  {
+   "ts": "2026-10-23T19:34:00.736803554+08:00",
+   "ch": "chat",
+   "text": "| #016 | 19:34:00 | cn:glm-5.3-flash           | stream | 200 | 账号01(9d9b656c)     | TTFB=4827ms   | tok=-      | -           | cache=-      | total=4.8s | prep=34ms do=4759ms"
+  },
+  {
+   "ts": "2026-10-23T19:34:04.370401101+08:00",
+   "ch": "sys",
+   "text": "WARN: [continue] acct=账号01(9d9b656c) 段无 finish 结束（疑似上游断流，按截断终态降级）"
+  },
+  {
+   "ts": "2026-10-23T19:34:04.375313195+08:00",
+   "ch": "chat",
+   "text": "| #017 | 19:34:04 | cn:glm-5.3-flash           | stream | 200 | 账号01(9d9b656c)     | TTFB=3875ms   | tok=-      | -           | cache=-      | total=3.9s | prep=34ms do=3806ms"
+  },
+  {
+   "ts": "2026-10-23T19:45:09.661264004+08:00",
+   "ch": "sys",
+   "text": "WARN: 补领清扫 账号J(88c108e6): upstream session_dead (http 401): <html>\r"
+  },
+  {
+   "ts": "2026-10-23T19:45:09.661264004+08:00",
+   "ch": "sys",
+   "text": "<head><title>401 Authorization Required</title></head>\r"
+  },
+  {
+   "ts": "2026-10-23T19:45:09.661264004+08:00",
+   "ch": "sys",
+   "text": "<body>\r"
+  },
+  {
+   "ts": "2026-10-23T19:45:09.661264004+08:00",
+   "ch": "sys",
+   "text": "<center><h1>401 Authorization Required</h1></center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:45:09.661264004+08:00",
+   "ch": "sys",
+   "text": "<hr><center>openresty</center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:45:09.661264004+08:00",
+   "ch": "sys",
+   "text": "<p><em>Powered by <a href=\"https://apisix."
+  },
+  {
+   "ts": "2026-10-23T19:45:12.582459693+08:00",
+   "ch": "sys",
+   "text": "补领清扫：清扫 9 个账号（跳过 0）· 接受 199 · 领奖 1 · 出错 1"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.419165873+08:00",
+   "ch": "sys",
+   "text": "WARN: balance 账号J(88c108e6): upstream session_dead (http 401): <html>\r"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.419165873+08:00",
+   "ch": "sys",
+   "text": "<head><title>401 Authorization Required</title></head>\r"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.419165873+08:00",
+   "ch": "sys",
+   "text": "<body>\r"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.419165873+08:00",
+   "ch": "sys",
+   "text": "<center><h1>401 Authorization Required</h1></center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.419165873+08:00",
+   "ch": "sys",
+   "text": "<hr><center>openresty</center>\r"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.419165873+08:00",
+   "ch": "sys",
+   "text": "<p><em>Powered by <a href=\"https://apisix."
+  },
+  {
+   "ts": "2026-10-23T19:46:35.523234392+08:00",
+   "ch": "sys",
+   "text": "balance-sample d1c1ce5c-39fd-485f-a617-d73e69d8b52b: credits=2548"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.531514181+08:00",
+   "ch": "sys",
+   "text": "balance-sample a3b58149-e805-4dde-a51c-fedc72e0c217: credits=2677"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.539261498+08:00",
+   "ch": "task",
+   "text": "balance 账号J(88c108e6): 401 且 refresh 判死（session dead 计数 2/3）"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.546049835+08:00",
+   "ch": "sys",
+   "text": "balance-sample 956bb305-3d4e-47d2-a30f-d797e249111d: credits=2721"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.550188418+08:00",
+   "ch": "sys",
+   "text": "balance-sample 0c4f33d9-c569-4930-a7bf-6d960fcb735f: credits=2781"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.567541775+08:00",
+   "ch": "sys",
+   "text": "balance-sample d20b5528-3df5-4200-a4fa-1bd25b07319d: credits=2298"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.570769551+08:00",
+   "ch": "sys",
+   "text": "balance-sample 6acaa8ca-3f55-42b0-a3c4-1df0c39fae98: credits=2735"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.640999221+08:00",
+   "ch": "sys",
+   "text": "balance-sample b1184f4c-d011-4a32-a9ec-7c79b8103393: credits=1472"
+  },
+  {
+   "ts": "2026-10-23T19:46:35.669321432+08:00",
+   "ch": "sys",
+   "text": "balance-sample 0ba5fde2-1bf1-4aed-a1cb-83af6f84ef9b: credits=1969"
+  },
+  {
+   "ts": "2026-10-23T19:46:36.749951192+08:00",
+   "ch": "sys",
+   "text": "panel: 昵称同步：更新 0 个，失败 1 个（未变化不计数）"
+  },
+  {
+   "ts": "2026-10-23T19:46:36.750007539+08:00",
+   "ch": "task",
+   "text": "panel: 手动全量余额刷新完成"
+  },
+  {
+   "ts": "2026-10-23T19:46:42.140784342+08:00",
+   "ch": "sys",
+   "text": "panel: revive uid=24a594c0-00b5-4335-aec0-0dd570debcbe（人工清除禁用/冷却/熔断）"
+  },
+  {
+   "ts": "2026-10-23T19:46:46.495474251+08:00",
+   "ch": "sys",
+   "text": "panel: revive uid=932367a4-554f-4407-aefd-138fe6bb9246（人工清除禁用/冷却/熔断）"
+  },
+  {
+   "ts": "2026-10-23T19:47:02.814940764+08:00",
+   "ch": "sys",
+   "text": "panel: 新账号已热加载 uid=f80f7219-2d2f-4c71-add1-f93e82757e5e nickname=\"账号J\" realm=cn（免重启生效）"
+  }
+ ]
+}

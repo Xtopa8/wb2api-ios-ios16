@@ -1,0 +1,71 @@
+{
+ "rows": [
+  {
+   "account": "账号1",
+   "kind": "会话失效",
+   "code": "401",
+   "count": 4,
+   "last": "19:32:38",
+   "sev": "bad",
+   "sample": "WARN: [upstream] chat_stream acct=账号J(88c108e6): upstream 401 session_dead body=<html>",
+   "sample_full": "WARN: [upstream] chat_stream acct=账号J(88c108e6): upstream 401 session_dead body=<html>"
+  },
+  {
+   "account": "账号1",
+   "kind": "其他（未归类）",
+   "count": 3,
+   "last": "19:30:53",
+   "sev": "warn",
+   "sample": "WARN: [pool] fallback_earliest_expiry acct=账号J(88c108e6) until=2026-10-23T19:35:38+08:00 kind=soft",
+   "sample_full": "WARN: [pool] fallback_earliest_expiry acct=账号J(88c108e6) until=2026-10-23T19:35:38+08:00 kind=soft"
+  },
+  {
+   "account": "",
+   "kind": "其他（未归类）",
+   "count": 2,
+   "last": "19:45:09",
+   "sev": "warn",
+   "sample": "WARN: [server] 账号 88c108e6 连续 3 次网关 401（token 被上游判无效）→ 禁用，需重新登录",
+   "sample_full": "WARN: [server] 账号 88c108e6 连续 3 次网关 401（token 被上游判无效）→ 禁用，需重新登录"
+  },
+  {
+   "account": "账号1",
+   "kind": "续写降级",
+   "count": 2,
+   "last": "19:34:04",
+   "sev": "warn",
+   "sample": "WARN: [continue] acct=账号01(9d9b656c) 段无 finish 结束（疑似上游断流，按截断终态降级）",
+   "sample_full": "WARN: [continue] acct=账号01(9d9b656c) 段无 finish 结束（疑似上游断流，按截断终态降级）"
+  },
+  {
+   "account": "账号1",
+   "kind": "其他（未归类）",
+   "model": "glm-5.3-flash",
+   "count": 1,
+   "last": "19:32:49",
+   "sev": "warn",
+   "sample": "WARN: [server] stream acct=账号02(f6cee0dd) model=glm-5.3-flash: finish_reason=stop with zero tool_calls despite 10 declared tool(s) (silent stop; client may ",
+   "sample_full": "WARN: [server] stream acct=账号02(f6cee0dd) model=glm-5.3-flash: finish_reason=stop with zero tool_calls despite 10 declared tool(s) (silent stop; client may treat the turn as complete)"
+  },
+  {
+   "account": "账号1",
+   "kind": "余额查询失败",
+   "count": 1,
+   "last": "19:46:35",
+   "sev": "warn",
+   "sample": "WARN: balance 账号J(88c108e6): upstream session_dead (http 401): <html>",
+   "sample_full": "WARN: balance 账号J(88c108e6): upstream session_dead (http 401): <html>"
+  },
+  {
+   "account": "账号1",
+   "kind": "客户端中断",
+   "count": 1,
+   "last": "19:33:28",
+   "sev": "info",
+   "sample": "ERR: [upstream] chat_stream acct=账号01(9d9b656c): transport error: Post \"https://copilot.tencent.com/v2/chat/completions\": context canceled",
+   "sample_full": "ERR: [upstream] chat_stream acct=账号01(9d9b656c): transport error: Post \"https://copilot.tencent.com/v2/chat/completions\": context canceled"
+  }
+ ],
+ "scanned": 81,
+ "updated_at": "19:52:38"
+}
